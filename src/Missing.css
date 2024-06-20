@@ -1,0 +1,12 @@
+.missing{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    place-content: center;
+    align-items: center;
+}
+span{
+    display: inline;
+    color: blue;
+    font-size: 2rem;
+}

@@ -1,0 +1,49 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.back-link{
+    display: block;
+    background-color: grey;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 10rem;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#submit-btn{
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+#submit-btn:hover{
+    background-color: dodgerblue;
+    color: yellowgreen;
+}
+.asterisk{
+    color: red;
+    font-size: medium;
+}
+input, select, textarea{
+    padding: 1rem;
+    color: #333;
+}

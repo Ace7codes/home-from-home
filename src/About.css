@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.about-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(About-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 50vh;
+    color: #333;
+}
+.about-hero h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.about-text{
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.choose-us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media(max-width : 535px){
+    .about-hero h2{
+        font-size: 3rem;
+    }
+}

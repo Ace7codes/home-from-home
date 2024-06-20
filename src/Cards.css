@@ -1,0 +1,19 @@
+.card{
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    width: 16rem;
+    border-radius: 15px;
+}
+.card-links:hover{
+    color: #333;
+    background-color: antiquewhite;
+    transform: scale(110%, 110%);
+    transition: 0.5s;
+}
+.card-links img:hover{
+    transform: scale(120%, 120%);
+    transition: 0.5s;
+}

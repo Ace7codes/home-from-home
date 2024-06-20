@@ -1,0 +1,38 @@
+.full-card{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+.full-card h2{
+    font-weight: bolder;
+    font-size: 4rem;
+}
+.full-card h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.full-card p{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.full-card a{
+    color: brown;
+}
+.full-card a:hover{
+    color: yellowgreen;
+}
+@media(max-width : 410px){
+    .full-card h2{
+        font-size: 2rem;
+    }
+    .full-card h3{
+        font-size: 1rem;
+    }
+    .full-card p{
+        font-size: 0.8rem;
+    }
+}
